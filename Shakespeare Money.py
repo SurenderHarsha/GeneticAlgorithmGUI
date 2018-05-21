@@ -168,7 +168,7 @@ def crossover(pai,pop,target):
         		break
         	if i not in po:
         		po.append(i)
-        
+                        flag+=1
         
     
     #Remove any duplicates in population.
